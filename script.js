@@ -8,4 +8,8 @@ const resultDiv = document.getElementById("result");
 calcBtn.addEventListener("click",function() {
     // ここに判定ロジックを書いていきます！
     console.log("ボタンが押されました");
+
+// 身長の入力欄から文字を取り出して、計算できる数字に変換する
+const height = Number(heightInput.value);
+
 })
