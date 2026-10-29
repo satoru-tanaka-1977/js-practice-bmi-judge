@@ -11,5 +11,6 @@ calcBtn.addEventListener("click",function() {
 
 // 身長の入力欄から文字を取り出して、計算できる数字に変換する
 const height = Number(heightInput.value);
-
+// 体重の入力欄から文字を取り出して、計算できる数字に変換する
+const weight = Number(weightInput.value);
 })
