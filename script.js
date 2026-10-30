@@ -13,4 +13,6 @@ calcBtn.addEventListener("click",function() {
 const height = Number(heightInput.value);
 // 体重の入力欄から文字を取り出して、計算できる数字に変換する
 const weight = Number(weightInput.value);
+// 身長(cm)をmに直してBMIを計算する
+const bmi = weight / ((height / 100) * (height / 100));
 })
