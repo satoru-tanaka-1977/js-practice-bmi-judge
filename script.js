@@ -15,4 +15,6 @@ const height = Number(heightInput.value);
 const weight = Number(weightInput.value);
 // 身長(cm)をmに直してBMIを計算する
 const bmi = weight / ((height / 100) * (height / 100));
+// 計算したBMIの結果を画面に表示する（小数点第1位まで）
+resultDiv.textContent = `あなたのBMIは${bmi.toFixed(1)}です`;
 })
